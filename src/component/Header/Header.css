@@ -1,0 +1,8 @@
+.logo {
+    height: 50px;
+    font-weight: 50px;
+    text-align: left;
+}
+.secondary-color {
+  background-color: var(--secondary-color);
+}

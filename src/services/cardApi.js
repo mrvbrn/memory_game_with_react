@@ -1,0 +1,54 @@
+export const cards = [
+  {
+    id:1
+    img:
+    name:
+  },
+  {
+    id:2
+    img:
+    name:
+  },
+  {
+    id:3
+    img:
+    name:
+  },
+  {
+    id:4
+    img:
+    name:
+  },
+  {
+    id:5
+    img:
+    name:
+  },
+  {
+    id:6
+    img:
+    name:
+  },
+  {
+    id:7
+    img:
+    name:
+  },
+  { 
+    id:8
+    img:
+    name:
+  },
+  { 
+    id:9
+    img:
+    name:
+  },
+  { 
+    id:10
+    img:
+    name:
+  },
+
+
+]
