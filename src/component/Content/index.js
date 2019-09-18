@@ -11,7 +11,6 @@ class Content extends React.Component{
       currentScore : 0,
       highScore : 0,
       cards, 
-      Clicked:  false
     };
 
 
@@ -21,26 +20,19 @@ class Content extends React.Component{
     };
 
     handleScore = id => {
-      this.state.cards.forEach(card => {
-          if (id === card.id && card.click === false) {
-            card.click = true;
-            this.setState({Clicked : false});
-            this.handleIncrement();
-          } else if (id === card.id && card.click === true) {
-            if (this.state.currentScore > this.state.highScore){
-                this.setState({highScore : this.state.currentScore});
+        this.state.cards.forEach(card => {
+          if (id === card.id && card.clicked === false) {
+            card.clicked = true;
+            this.setState({currentScore: this.state.currentScore+1})
+          } else if (id === card.id && card.clicked === true) {
+            if (this.state.currentScore > this.state.highScore) {
+              this.setState({ highScore: this.state.currentScore });
             }
-            this.setState({currentScore : 0});
-            this.setState({Clicked : true});
-            this.state.cards.forEach(card => (card.click = false));
-            console.log(this.state.cards); 
+            this.setState({ currentScore: 0 });
           }
-      });
-    };
+        });
+      };
 
-    handleIncrement = () => {
-        this.setState({ currentScore : this.state.currentScore + 1});
-    };
 
     shuffleArray = () => {
         const shuffleArr = this.shuffle(this.state.cards);
@@ -53,7 +45,7 @@ class Content extends React.Component{
           tempVal,
           randomIndex;
 
-        while (0 !== currentIndex){
+        while (currentIndex !== 0){
           randomIndex = Math.floor(Math.random() * currentIndex);
           currentIndex -= 1;
 

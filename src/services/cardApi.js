@@ -67,6 +67,12 @@ export const cards = [
     "img": require("../services/image/parrot.jpg"),
     "name": "K"
   },
+   { 
+    "id":12,
+    "clicked" : false,
+    "img": require("../services/image/learns_color.jpg"),
+    "name": "L"
+  },
 
 
 ]
