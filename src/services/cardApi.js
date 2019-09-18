@@ -1,53 +1,71 @@
+
 export const cards = [
   {
-    id:1
-    img:
-    name:
+    "id" :1,
+    "clicked" : false,
+    "img": require("../services/image/farm_puzzle.jpg"),
+    "name": "A"
   },
   {
-    id:2
-    img:
-    name:
+    "id":2,
+    "clicked" : false,
+    "img": require("../services/image/first_words.jpg"),
+    "name":"B",
   },
   {
-    id:3
-    img:
-    name:
+    "id":3,
+    "clicked" : false,
+    "img": require("../services/image/kids_construction.jpg"),
+ 
+    "name": "C",
   },
   {
-    id:4
-    img:
-    name:
+    "id":4,
+    "clicked" : false,
+    "img": require("../services/image/kids_farm.jpg"),
+    "name": "D"
   },
   {
-    id:5
-    img:
-    name:
+    "id":5,
+    "clicked" : false,
+    "img": require("../services/image/2048.png"),
+    "name": "E"
   },
   {
-    id:6
-    img:
-    name:
+    "id":6,
+    "clicked" : false,
+    "img": require("../services/image/first_animals.jpg"),
+    "name": "F"
   },
   {
-    id:7
-    img:
-    name:
+    "id":7,
+    "clicked" : false,
+    "img": require("../services/image/first_color.jpg"),
+    "name": "G"
   },
   { 
-    id:8
-    img:
-    name:
+    "id":8,
+    "clicked" : false,
+    "img": require("../services/image/first_vehicles.jpg"),
+    "name": "H"
   },
   { 
-    id:9
-    img:
-    name:
+    "id":9,
+    "clicked" : false,
+    "img": require("../services/image/kidszoo.jpg"),
+    "name": "I"
   },
   { 
-    id:10
-    img:
-    name:
+    "id":10,
+    "clicked" : false,
+    "img": require("../services/image/first_animals.jpg"),
+    "name": "J"
+  },
+ { 
+    "id":11,
+    "clicked" : false,
+    "img": require("../services/image/parrot.jpg"),
+    "name": "K"
   },
 
 
